@@ -1,0 +1,104 @@
+/* Play with a purpose base css
+*/
+body{
+    background: #cfcfcf;
+    font-size: 12px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #707478;
+    margin: 0px;
+}
+
+#loginForm{
+    margin-top: 30%;
+    text-align: center;
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+#header{
+    background: #ffffff;
+    box-shadow: 0 0 2px #0e0e0e
+    z-index: 999;
+    margin-bottom:0;
+    top: 0;
+}
+
+#topmenuwrapper{
+    background-color: #ffffff;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid #000000;
+}
+
+.topmenuheader{
+    padding-top:20px;
+}
+
+#logo{
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#555555;
+}
+
+
+
+#sidemenuwrapper ul, #sidemenuwrapper ul li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#sidemenuwrapper{
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    padding-top:20px;
+    margin-top:35px;
+}
+
+#sidemenu{
+
+    background:#272727;
+    width:150px;
+    height:100%;
+}
+
+#sidemenuwrapper ul li{
+    background-color:#272727;
+    width:110px;
+    padding-left:20px;
+    text-align:left;
+    color:#555555;
+    display:inline-block;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#sidemenuwrapper ul li a{
+    padding-top:10px;
+    padding-bottom:10px;
+    color:#555555;
+    display:inline-block;
+    text-decoration:none;
+}
+
+#sidemenuwrapper ul li a.selected{
+    color:#ddd;
+}
+#sidemenuwrapper ul li:hover{
+    background-color:#00b3ee;
+}
+
+#main{
+    margin-left:160px ;
+}
+
+
+
+@media (min-width: 768px) {
+
+
+}
+
